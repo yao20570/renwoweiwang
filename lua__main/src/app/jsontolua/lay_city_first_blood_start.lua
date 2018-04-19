@@ -1,0 +1,18 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+view={classname="Panel",name="view",parName="root",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="234",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="39",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+img_join_text={classname="CustomImageView",name="img_join_text",parName="view",ZOrder="5",fileName="#v2_fonts_canyugongcheng.png",scale9Enable="false",scale9Height="21",scale9Width="87",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="21",width="87",x="320",y="14",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="42",anchorPointX="0.5",anchorPointY="0.5",},
+lay_icon={classname="Panel",name="lay_icon",parName="view",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="104",width="104",x="267",y="103",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="61",anchorPointX="0",anchorPointY="0",},
+img_start_text={classname="CustomImageView",name="img_start_text",parName="view",ZOrder="5",fileName="#v2_ing_guozhan.png",scale9Enable="false",scale9Height="135",scale9Width="35",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="135",width="35",x="76",y="140",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="45",anchorPointX="0.5",anchorPointY="0.5",},
+img_long={classname="ImageView",name="img_long",parName="view",ZOrder="4",fileName="#v2_ing_touminglong.png",scale9Enable="false",scale9Height="332",scale9Width="195",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="332",width="195",x="542",y="87",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25553",anchorPointX="0.5",anchorPointY="0.5",},
+img_country={classname="ImageView",name="img_country",parName="view",ZOrder="5",fileName="#v2_fonts_han.png",scale9Enable="false",scale9Height="58",scale9Width="58",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="58",width="58",x="530",y="62",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25554",anchorPointX="0.5",anchorPointY="0.5",},
+txt_name={classname="Label",name="txt_name",parName="view",ZOrder="6",colorB="255",colorG="255",colorR="255",areaHeight="187",areaWidth="25",hAlignment="0",vAlignment="0",text="六个字六个字",fontName="微软雅黑",fontSize="22",height="187",width="25",x="122",y="194",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25556",anchorPointX="0.5",anchorPointY="1",},
+img_left={classname="ImageView",name="img_left",parName="view",ZOrder="2",fileName="#v2_ing_toumingditu.png",scale9Enable="true",scale9Height="234",scale9Width="320",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="0",height="234",width="320",x="160",y="117",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25559",anchorPointX="0.5",anchorPointY="0.5",},
+img_right={classname="ImageView",name="img_right",parName="view",ZOrder="2",fileName="#v2_ing_toumingditu.png",scale9Enable="true",scale9Height="234",scale9Width="320",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="0",height="234",width="320",x="479",y="117",visible="true",touchAble="false",flipX="false",scaleX="-1",scaleY="1",opacity="255",rotation="0",tag="25561",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

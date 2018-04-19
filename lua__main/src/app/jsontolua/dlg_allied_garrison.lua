@@ -1,0 +1,25 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon1_sep.plist","ui/p1_commmon3_sep.plist"}
+tTable["index_1"] = {
+lay_default={classname="Panel",name="lay_default@fill_layout",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="962",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_top={classname="Panel",name="ly_top",parName="lay_default",childCount="2",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="868",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="976",anchorPointX="0",anchorPointY="0",},
+ly_content={classname="Panel",name="ly_content@fill_layout",parName="lay_default",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="true",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="698",width="640",x="0",y="169",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="982",anchorPointX="0",anchorPointY="0",},
+ly_down={classname="Panel",name="ly_down",parName="lay_default",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="170",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="986",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+ly_title={classname="Panel",name="ly_title",parName="ly_top",childCount="3",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="86",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="977",anchorPointX="0",anchorPointY="0",},
+lay_banner_bg={classname="Panel",name="lay_banner_bg",parName="ly_top",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="981",anchorPointX="0",anchorPointY="0",},
+lay_desc={classname="Panel",name="lay_desc",parName="ly_content",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_xiaobiaoti3.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="320",capInsetsY="25",height="50",width="640",x="0",y="648",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="983",anchorPointX="0",anchorPointY="0",},
+lay_list={classname="Panel",name="lay_list@fill_layout",parName="ly_content",ZOrder="0",useMergedTexture="false",clipAble="true",backGroundScale9Enable="true",backGroundImage="#v1_bg_kelashen.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="648",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="985",anchorPointX="0",anchorPointY="0",},
+ly_btn={classname="Panel",name="ly_btn",parName="ly_down",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="243",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="987",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+lb_title_1={classname="CustomLabel",name="lb_title_1",parName="ly_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="15",y="14",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="978",anchorPointX="0",anchorPointY="0.5",},
+lb_title_2={classname="CustomLabel",name="lb_title_2",parName="ly_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="60",areaWidth="610",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="60",width="610",x="15",y="56",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="979",anchorPointX="0",anchorPointY="0.5",},
+lb_title_3={classname="CustomLabel",name="lb_title_3",parName="ly_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="625",y="13",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="990",anchorPointX="1",anchorPointY="0.5",},
+}
+
+return tTable

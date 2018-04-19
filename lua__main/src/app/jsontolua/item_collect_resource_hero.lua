@@ -1,0 +1,16 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p2_commmon2_sep.plist","ui/p2_commmon1_sep.plist","ui/language/cn/p2_font1.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v2_img_wujiangqiehuandi.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="27",capInsetsY="25",height="116",width="290",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="361",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+txt_troops={classname="CustomLabel",name="txt_troops",parName="default",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="兵力：",fontName="微软雅黑",fontSize="20",height="27",width="60",x="114",y="57",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="364",anchorPointX="0",anchorPointY="0.5",},
+txt_state={classname="CustomLabel",name="txt_state",parName="default",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="114",y="24",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="365",anchorPointX="0",anchorPointY="0.5",},
+lay_icon={classname="Panel",name="lay_icon",parName="default",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="87",width="87",x="14",y="15",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="2844",anchorPointX="0",anchorPointY="0",},
+img_selected={classname="CustomImageView",name="img_selected",parName="default",ZOrder="1",fileName="#v2_img_gouxuankuang.png",scale9Enable="false",scale9Height="32",scale9Width="32",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="32",width="32",x="262",y="27",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16953",anchorPointX="0.5",anchorPointY="0.5",},
+txt_name={classname="CustomLabel",name="txt_name",parName="default",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="22",height="30",width="106",x="114",y="92",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="23810",anchorPointX="0",anchorPointY="0.5",},
+img_cai={classname="CustomImageView",name="img_cai",parName="default",ZOrder="0",fileName="#v2_img_cai.png",scale9Enable="false",scale9Height="39",scale9Width="29",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="39",width="29",x="274",y="93",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="23853",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

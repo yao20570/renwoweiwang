@@ -1,0 +1,23 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+root={classname="Panel",name="root@fill_layout",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="603",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_top={classname="Panel",name="lay_top",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="867",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="604",anchorPointX="0",anchorPointY="0",},
+lay_list={classname="Panel",name="lay_list@fill_layout",parName="root",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="711",width="640",x="0",y="158",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="150",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="19922",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lb_tip_1={classname="Label",name="lb_tip_1",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="国家百姓：",fontName="微软雅黑",fontSize="18",height="24",width="90",x="33",y="78",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="608",anchorPointX="0",anchorPointY="0.5",},
+lb_tip_2={classname="Label",name="lb_tip_2",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="本城百姓：",fontName="微软雅黑",fontSize="18",height="24",width="90",x="33",y="49",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="609",anchorPointX="0",anchorPointY="0.5",},
+lb_tip_3={classname="Label",name="lb_tip_3",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="城池情况：",fontName="微软雅黑",fontSize="18",height="24",width="90",x="34",y="20",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="610",anchorPointX="0",anchorPointY="0.5",},
+lay_info={classname="Panel",name="lay_info",parName="lay_top",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="100",width="640",x="0",y="1",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="606",anchorPointX="0",anchorPointY="0",},
+lay_banner_bg={classname="Panel",name="lay_banner_bg",parName="lay_top",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="19787",anchorPointX="0",anchorPointY="0",},
+lay_act_btn={classname="Panel",name="lay_act_btn",parName="lay_top",ZOrder="100",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="39",width="124",x="499",y="140",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="19720",anchorPointX="0",anchorPointY="0",},
+lay_red={classname="Panel",name="lay_red",parName="lay_bottom",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="20",width="20",x="382",y="82",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="19855",anchorPointX="0",anchorPointY="0",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_bottom",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="242",y="34",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="615",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

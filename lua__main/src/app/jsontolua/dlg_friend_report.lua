@@ -1,0 +1,24 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon1_sep.plist","ui/p1_commonse1.plist"}
+tTable["index_1"] = {
+dlg_friend_report={classname="Panel",name="dlg_friend_report",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="668",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="117",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_top={classname="Panel",name="lay_top",parName="dlg_friend_report",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="383",width="560",x="0",y="285",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="127",anchorPointX="0",anchorPointY="0",},
+lay_bot={classname="Panel",name="lay_bot",parName="dlg_friend_report",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="285",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="128",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lb_tip={classname="Label",name="lb_tip",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="100",areaWidth="524",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="100",width="524",x="18",y="310",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="119",anchorPointX="0",anchorPointY="0.5",},
+lay_title={classname="Panel",name="lay_title",parName="lay_top",childCount="1",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_xiaobiaoti2.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="25",height="50",width="524",x="18",y="190",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="121",anchorPointX="0",anchorPointY="0",},
+lay_content={classname="Panel",name="lay_content",parName="lay_top",childCount="4",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black20.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="190",width="524",x="18",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="118",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+lb_title_s={classname="Label",name="lb_title_s",parName="lay_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="15",y="25",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="122",anchorPointX="0",anchorPointY="0.5",},
+lb_name={classname="Label",name="lb_name",parName="lay_content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="15",y="165",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="123",anchorPointX="0",anchorPointY="0.5",},
+lb_time={classname="Label",name="lb_time",parName="lay_content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="479",y="165",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="124",anchorPointX="1",anchorPointY="0.5",},
+img_line={classname="ImageView",name="img_line",parName="lay_content",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="494",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="494",x="260",y="145",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="125",anchorPointX="0.5",anchorPointY="0.5",},
+lb_cont={classname="Label",name="lb_cont",parName="lay_content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="110",areaWidth="484",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="110",width="484",x="20",y="133",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="126",anchorPointX="0",anchorPointY="1",},
+}
+
+return tTable

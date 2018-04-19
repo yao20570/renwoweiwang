@@ -1,0 +1,26 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse1.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="200",width="500",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="80",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+content={classname="Panel",name="content",parName="default",childCount="4",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="130",width="500",x="0",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="81",anchorPointX="0",anchorPointY="0",},
+lb_tips={classname="Label",name="lb_tips",parName="default",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="250",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="82",anchorPointX="0.5",anchorPointY="0.5",},
+}
+tTable["index_3"] = {
+lay_left={classname="Panel",name="lay_left",parName="content",childCount="4",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="130",width="150",x="20",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="83",anchorPointX="0",anchorPointY="0",},
+lay_right={classname="Panel",name="lay_right",parName="content",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="130",width="150",x="330",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="84",anchorPointX="0",anchorPointY="0",},
+arrow={classname="ImageView",name="arrow",parName="content",ZOrder="0",fileName="#v1_img_shengjijiantou.png",scale9Enable="false",scale9Height="45",scale9Width="50",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="45",width="50",x="262",y="50",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="85",anchorPointX="0.5",anchorPointY="0.5",},
+lb_tips_main={classname="Label",name="lb_tips_main",parName="content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="当前每次募兵最大上限",fontName="微软雅黑",fontSize="20",height="27",width="200",x="250",y="120",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="123",anchorPointX="0.5",anchorPointY="0.5",},
+}
+tTable["index_4"] = {
+lb_s_tips1={classname="Label",name="lb_s_tips1",parName="lay_left",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="时长上限：",fontName="微软雅黑",fontSize="20",height="27",width="100",x="0",y="70",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="86",anchorPointX="0",anchorPointY="0.5",},
+lb_s_tips2={classname="Label",name="lb_s_tips2",parName="lay_left",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="募兵上限：",fontName="微软雅黑",fontSize="20",height="27",width="100",x="0",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="87",anchorPointX="0",anchorPointY="0.5",},
+lb_s_p1={classname="Label",name="lb_s_p1",parName="lay_left",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="10分钟",fontName="微软雅黑",fontSize="20",height="27",width="64",x="100",y="70",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="92",anchorPointX="0",anchorPointY="0.5",},
+lb_s_p2={classname="Label",name="lb_s_p2",parName="lay_left",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="1000",fontName="微软雅黑",fontSize="20",height="27",width="48",x="100",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="93",anchorPointX="0",anchorPointY="0.5",},
+lb_e_p1={classname="Label",name="lb_e_p1",parName="lay_right",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="30分钟",fontName="微软雅黑",fontSize="20",height="27",width="64",x="150",y="70",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="89",anchorPointX="1",anchorPointY="0.5",},
+lb_e_p2={classname="Label",name="lb_e_p2",parName="lay_right",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="300",fontName="微软雅黑",fontSize="20",height="27",width="36",x="150",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="90",anchorPointX="1",anchorPointY="0.5",},
+}
+
+return tTable

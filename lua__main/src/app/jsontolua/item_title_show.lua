@@ -1,0 +1,16 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon2_sep.plist","ui/language/cn/p2_font_sep.plist","ui/language/cn/p2_font2.plist"}
+tTable["index_1"] = {
+item_title_show={classname="Panel",name="item_title_show",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="120",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="425",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_title={classname="Panel",name="lay_title",parName="item_title_show",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6_b.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="175",capInsetsY="9",height="50",width="350",x="0",y="70",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="426",anchorPointX="0",anchorPointY="0",},
+lb_desc={classname="Label",name="lb_desc",parName="item_title_show",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="70",areaWidth="400",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="70",width="400",x="20",y="35",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="427",anchorPointX="0",anchorPointY="0.5",},
+lay_right_btn={classname="Panel",name="lay_right_btn",parName="item_title_show",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="448",y="35",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="429",anchorPointX="0",anchorPointY="0",},
+img_flag={classname="ImageView",name="img_flag",parName="item_title_show",ZOrder="0",fileName="#v2_fonts_yidadao.png",scale9Enable="false",scale9Height="51",scale9Width="146",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="51",width="146",x="519",y="60",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="430",anchorPointX="0.5",anchorPointY="0.5",},
+img_title={classname="ImageView",name="img_title",parName="item_title_show",ZOrder="10",fileName="#v2_fonts_zmkm.png",scale9Enable="false",scale9Height="33",scale9Width="103",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="33",width="103",x="20",y="95",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="431",anchorPointX="0",anchorPointY="0.5",},
+lb_time={classname="Label",name="lb_time",parName="item_title_show",ZOrder="10",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="300",y="95",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="432",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

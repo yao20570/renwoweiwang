@@ -1,0 +1,17 @@
+local tDatas = {}
+tDatas["p1_fight_skill_bj_001.plist"] = "tx/fight/p1_fight_skill_bj_001.plist"
+tDatas["p2_fight_wj_s.plist"] = "tx/fight/p2_fight_wj_s.plist"
+tDatas["p2_fight_wj_x.plist"] = "tx/fight/p2_fight_wj_x.plist"
+tDatas["p2_fight_qb_x.plist"] = "tx/fight/p2_fight_qb_x.plist"
+tDatas["p2_fight_hurt.plist"] = "tx/fight/p2_fight_hurt.plist"
+tDatas["p1_fight_death.plist"] = "tx/fight/p1_fight_death.plist"
+tDatas["p2_fight_qb_s.plist"] = "tx/fight/p2_fight_qb_s.plist"
+tDatas["p2_fight_gb_x.plist"] = "tx/fight/p2_fight_gb_x.plist"
+tDatas["p2_fight_bb_s.plist"] = "tx/fight/p2_fight_bb_s.plist"
+tDatas["p1_fight_skill_gj_001.plist"] = "tx/fight/p1_fight_skill_gj_001.plist"
+tDatas["p1_fight_skill_qj_001.plist"] = "tx/fight/p1_fight_skill_qj_001.plist"
+tDatas["p2_fight_gb_s.plist"] = "tx/fight/p2_fight_gb_s.plist"
+tDatas["p2_fight_bb_x.plist"] = "tx/fight/p2_fight_bb_x.plist"
+tDatas["p1_fight_wj_circle.plist"] = "tx/fight/p1_fight_wj_circle.plist"
+tDatas["p1_fight_square.plist"] = "tx/fight/p1_fight_square.plist"
+return tDatas

@@ -1,0 +1,16 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+item_private_friend_chat={classname="Panel",name="item_private_friend_chat",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="0",height="130",width="118",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1082",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lb_name={classname="Label",name="lb_name",parName="item_private_friend_chat",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="16",height="21",width="77",x="59",y="15",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1083",anchorPointX="0.5",anchorPointY="0.5",},
+lay_icon={classname="Panel",name="lay_icon",parName="item_private_friend_chat",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="87",width="87",x="15",y="30",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1084",anchorPointX="0",anchorPointY="0",},
+img_select={classname="ImageView",name="img_select",parName="item_private_friend_chat",ZOrder="1",fileName="#v2_img_liaotiantoushi2.png",scale9Enable="true",scale9Height="130",scale9Width="130",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="65",height="130",width="130",x="65",y="65",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1085",anchorPointX="0.5",anchorPointY="0.5",},
+img_flag={classname="ImageView",name="img_flag",parName="item_private_friend_chat",ZOrder="5",fileName="#v1_img_chu.png",scale9Enable="false",scale9Height="64",scale9Width="51",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="64",width="51",x="27",y="100",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1086",anchorPointX="0.5",anchorPointY="0.5",},
+Image_6={classname="ImageView",name="Image_6",parName="item_private_friend_chat",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="116",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="116",x="59",y="0",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1093",anchorPointX="0.5",anchorPointY="0.5",},
+lay_red={classname="Panel",name="lay_red",parName="item_private_friend_chat",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="20",width="20",x="90",y="104",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1125",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

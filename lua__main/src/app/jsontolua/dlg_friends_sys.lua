@@ -1,0 +1,31 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+lay_def={classname="Panel",name="lay_def@fill_layout",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="7",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_top={classname="Panel",name="lay_top",parName="lay_def",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="65",width="640",x="0",y="995",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="142",anchorPointX="0",anchorPointY="0",},
+lay_tab={classname="Panel",name="lay_tab@fill_layout",parName="lay_def",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_bg_kelashen.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="865",width="640",x="0",y="195",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="8",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="lay_def",childCount="5",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="195",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="141",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lb_NullTip={classname="Label",name="lb_NullTip",parName="lay_tab",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="300",y="400",visible="false",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="28",anchorPointX="0.5",anchorPointY="0.5",},
+lay_list={classname="Panel",name="lay_list@fill_layout",parName="lay_tab",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="800",width="600",x="20",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="59",anchorPointX="0",anchorPointY="0",},
+lb_friend_cnt={classname="Label",name="lb_friend_cnt",parName="lay_bottom",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="40",y="155",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="9",anchorPointX="0",anchorPointY="0.5",},
+lb_encourage={classname="Label",name="lb_encourage",parName="lay_bottom",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="600",y="155",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="10",anchorPointX="1",anchorPointY="0.5",},
+lb_vit={classname="Label",name="lb_vit",parName="lay_bottom",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="320",y="155",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="11",anchorPointX="0.5",anchorPointY="0.5",},
+lay_bot_1={classname="Panel",name="lay_bot_1",parName="lay_bottom",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="140",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="12",anchorPointX="0",anchorPointY="0",},
+lay_bot_2={classname="Panel",name="lay_bot_2",parName="lay_bottom",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="140",width="640",x="0",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="13",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+lay_input={classname="Panel",name="lay_input",parName="lay_bot_1",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="ui/bar/v1_bar_b4.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="40",capInsetsY="9",height="50",width="220",x="30",y="47",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="14",anchorPointX="0",anchorPointY="0",},
+lay_btn_addf={classname="Panel",name="lay_btn_addf",parName="lay_bot_1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="270",y="40",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="15",anchorPointX="0",anchorPointY="0",},
+lay_btn_onekey={classname="Panel",name="lay_btn_onekey",parName="lay_bot_1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="455",y="40",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16",anchorPointX="0",anchorPointY="0",},
+lay_get={classname="Panel",name="lay_get",parName="lay_bot_2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="243",y="40",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="17",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_5"] = {
+txt_field={classname="TextField",name="txt_field",parName="lay_input",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="40",areaWidth="210",text="输入昵称搜索玩家",fontName="微软雅黑",fontSize="20",maxLength="10",maxLengthEnable="false",passwordStyleText="*",passwordEnable="false",height="40",width="210",x="4",y="25",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="90",anchorPointX="0",anchorPointY="0.5",},
+}
+
+return tTable

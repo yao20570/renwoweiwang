@@ -1,0 +1,36 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+default={classname="Panel",name="default@fill_layout",parName="root",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="7",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+view={classname="Panel",name="view@fill_layout",parName="default",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="9",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lay_tab_btn={classname="Panel",name="lay_tab_btn",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="640",x="0",y="1010",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="29",anchorPointX="0",anchorPointY="0",},
+lay_content={classname="Panel",name="lay_content@fill_layout",parName="view",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="784",width="640",x="0",y="132",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="31",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="view",childCount="2",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_bg_kelashen.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="132",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="33",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+lay_tip={classname="Panel",name="lay_tip",parName="lay_content",childCount="3",ZOrder="3",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="94",width="640",x="0",y="784",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="34",anchorPointX="0",anchorPointY="0",},
+lay_list={classname="Panel",name="lay_list@fill_layout",parName="lay_content",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="784",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="30",anchorPointX="0",anchorPointY="0",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_bottom",ZOrder="4",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="242",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="35",anchorPointX="0",anchorPointY="0",},
+txt_cd={classname="Label",name="txt_cd",parName="lay_bottom",ZOrder="4",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="320",y="34",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="36",anchorPointX="0.5",anchorPointY="0.5",},
+}
+tTable["index_5"] = {
+lay_tip1={classname="Panel",name="lay_tip1",parName="lay_tip",childCount="4",ZOrder="3",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="94",width="640",x="0",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="56",anchorPointX="0",anchorPointY="0",},
+lay_tip2={classname="Panel",name="lay_tip2",parName="lay_tip",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="94",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="57",anchorPointX="0",anchorPointY="0",},
+lay_tip3={classname="Panel",name="lay_tip3",parName="lay_tip",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="94",width="640",x="0",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="58",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_6"] = {
+txt_dig_tip1={classname="Label",name="txt_dig_tip1",parName="lay_tip1",ZOrder="5",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="今日剩余挖掘次数：",fontName="微软雅黑",fontSize="20",height="27",width="180",x="230",y="60",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="59",anchorPointX="0.5",anchorPointY="0.5",},
+txt_dig_tip2={classname="Label",name="txt_dig_tip2",parName="lay_tip1",ZOrder="5",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="2",fontName="微软雅黑",fontSize="20",height="27",width="12",x="328",y="60",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="61",anchorPointX="0",anchorPointY="0.5",},
+txt_dig_tip3={classname="Label",name="txt_dig_tip3",parName="lay_tip1",ZOrder="5",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="355",y="59",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="64",anchorPointX="0",anchorPointY="0.5",},
+txt_dig_tip4={classname="Label",name="txt_dig_tip4",parName="lay_tip1",ZOrder="5",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="320",y="28",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="62",anchorPointX="0.5",anchorPointY="0.5",},
+txt_help_tip1={classname="Label",name="txt_help_tip1",parName="lay_tip3",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="今日剩余帮助次数：",fontName="微软雅黑",fontSize="20",height="27",width="180",x="300",y="60",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="65",anchorPointX="0.5",anchorPointY="0.5",},
+txt_help_tip2={classname="Label",name="txt_help_tip2",parName="lay_tip3",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="2",fontName="微软雅黑",fontSize="18",height="24",width="11",x="397",y="59",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="67",anchorPointX="0",anchorPointY="0.5",},
+txt_help_tip3={classname="Label",name="txt_help_tip3",parName="lay_tip3",ZOrder="5",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="320",y="27",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="69",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

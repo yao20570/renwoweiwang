@@ -1,0 +1,21 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon1_sep.plist","ui/p1_commonse1.plist","ui/language/cn/p1_font2.plist"}
+tTable["index_1"] = {
+item_hero_mansion={classname="Panel",name="item_hero_mansion",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="125",capInsetsY="98",height="196",width="300",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_main={classname="Panel",name="ly_main",parName="item_hero_mansion",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",backGroundImage="ui/big_img_sep/v1_img_shenbingkuang.png",height="196",width="250",x="24",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="18",anchorPointX="0",anchorPointY="0",},
+ly_cover={classname="Panel",name="ly_cover",parName="item_hero_mansion",childCount="1",ZOrder="3",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black50.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="196",width="250",x="24",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="171",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+Image_1={classname="ImageView",name="Image_1",parName="ly_main",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="250",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="250",x="125",y="145",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="17",anchorPointX="0.5",anchorPointY="0.5",},
+img_sale={classname="ImageView",name="img_sale",parName="ly_main",ZOrder="2",fileName="#v1_img_kejiman.png",scale9Enable="false",scale9Height="70",scale9Width="70",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="70",width="70",x="35",y="158",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="19",anchorPointX="0.5",anchorPointY="0.5",},
+lb_sale={classname="CustomLabel",name="lb_sale",parName="ly_main",ZOrder="3",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="90%",fontName="微软雅黑",fontSize="20",height="27",width="42",x="24",y="170",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="-45",tag="20",anchorPointX="0.5",anchorPointY="0.5",},
+ly_icon={classname="Panel",name="ly_icon",parName="ly_main",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="108",width="108",x="15",y="20",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="21",anchorPointX="0",anchorPointY="0",},
+lb_name={classname="CustomLabel",name="lb_name",parName="ly_main",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="物品名称",fontName="微软雅黑",fontSize="20",height="27",width="80",x="125",y="169",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22",anchorPointX="0.5",anchorPointY="0.5",},
+img_select={classname="ImageView",name="img_select",parName="ly_main",ZOrder="3",fileName="#v1_img_texiao.png",scale9Enable="true",scale9Height="196",scale9Width="250",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="196",width="250",x="125",y="98",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="170",anchorPointX="0.5",anchorPointY="0.5",},
+img_have_get={classname="ImageView",name="img_have_get",parName="ly_cover",ZOrder="0",fileName="#v1_fonts_ysq.png",scale9Enable="false",scale9Height="72",scale9Width="111",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="72",width="111",x="125",y="98",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="191",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

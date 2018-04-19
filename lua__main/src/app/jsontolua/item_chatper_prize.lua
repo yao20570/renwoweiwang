@@ -1,0 +1,18 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+item_chatper_prize={classname="Panel",name="item_chatper_prize",parName="root",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black30.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="1",height="96",width="520",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="744",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_cb={classname="Panel",name="ly_cb",parName="item_chatper_prize",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="32",width="32",x="17",y="21",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="745",anchorPointX="0",anchorPointY="0",},
+ly_title={classname="CustomLabel",name="ly_title",parName="item_chatper_prize",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="71",y="76",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="746",anchorPointX="0",anchorPointY="0.5",},
+lb_tips={classname="CustomLabel",name="lb_tips",parName="item_chatper_prize",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="奖励",fontName="微软雅黑",fontSize="16",height="21",width="32",x="71",y="37",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="748",anchorPointX="0",anchorPointY="0.5",},
+ly_list={classname="Panel",name="ly_list",parName="item_chatper_prize",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="55",width="260",x="106",y="7",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="749",anchorPointX="0",anchorPointY="0",},
+ly_btn={classname="Panel",name="ly_btn",parName="item_chatper_prize",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="110",x="393",y="9",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="750",anchorPointX="0",anchorPointY="0",},
+img_state={classname="CustomImageView",name="img_state",parName="item_chatper_prize",ZOrder="0",fileName="#v2_fonts_yilingqu.png",scale9Enable="false",scale9Height="46",scale9Width="140",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="46",width="140",x="457",y="36",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="751",anchorPointX="0.5",anchorPointY="0.5",},
+img_line={classname="CustomImageView",name="img_line",parName="item_chatper_prize",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="3",scale9Width="520",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="1",height="3",width="520",x="260",y="0",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="834",anchorPointX="0.5",anchorPointY="0.5",},
+img_mask={classname="CustomImageView",name="img_mask",parName="item_chatper_prize",ZOrder="100",fileName="#v1_img_black30.png",scale9Enable="true",scale9Height="96",scale9Width="520",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="1",height="96",width="520",x="0",y="0",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="835",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

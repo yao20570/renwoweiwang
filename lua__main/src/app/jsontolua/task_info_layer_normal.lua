@@ -1,0 +1,18 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+root={classname="Panel",name="root",parName="root",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="130",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="3",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_bg={classname="Panel",name="lay_bg",parName="root",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6_b.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="175",capInsetsY="9",height="128",width="350",x="0",y="1",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="718",anchorPointX="0",anchorPointY="0",},
+lay_icon={classname="Panel",name="lay_icon",parName="root",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="88",width="88",x="15",y="21",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="4",anchorPointX="0",anchorPointY="0",},
+lb_task={classname="Label",name="lb_task",parName="root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="任务详情介绍",fontName="微软雅黑",fontSize="22",height="30",width="132",x="115",y="99",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="5",anchorPointX="0",anchorPointY="0.5",},
+lay_right_btn={classname="Panel",name="lay_right_btn",parName="root",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="443",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6",anchorPointX="0",anchorPointY="0",},
+lay_bar_bg={classname="Panel",name="lay_bar_bg",parName="root",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="ui/bar/v1_bar_b1.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="45",capInsetsY="9",height="14",width="300",x="115",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="7",anchorPointX="0",anchorPointY="0",},
+lb_tip_1={classname="Label",name="lb_tip_1",parName="root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="奖励：",fontName="微软雅黑",fontSize="18",height="24",width="54",x="115",y="25",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="9",anchorPointX="0",anchorPointY="0.5",},
+lb_progress={classname="Label",name="lb_progress",parName="root",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="10/20",fontName="微软雅黑",fontSize="18",height="24",width="52",x="265",y="57",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="110",anchorPointX="0.5",anchorPointY="0.5",},
+img_yilingqu={classname="ImageView",name="img_yilingqu",parName="root",ZOrder="1",fileName="#v2_fonts_yilingqu.png",scale9Enable="false",scale9Height="46",scale9Width="140",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="46",width="140",x="514",y="74",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="388",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

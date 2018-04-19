@@ -1,0 +1,21 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon2_sep.plist","ui/p1_commmon5_sep.plist","ui/p1_commmon1_sep.plist","ui/p1_commonse1.plist","icon/p1_icon_font.plist"}
+tTable["index_1"] = {
+item_arena_layer={classname="Panel",name="item_arena_layer",parName="root",childCount="7",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="140",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="7",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+img_selected={classname="ImageView",name="img_selected",parName="item_arena_layer",ZOrder="100",fileName="#v1_img_truqrjfi.png",scale9Enable="true",scale9Height="154",scale9Width="614",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="67",capInsetsY="67",height="154",width="614",x="300",y="70",visible="false",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="42",anchorPointX="0.5",anchorPointY="0.5",},
+lay_cont={classname="Panel",name="lay_cont",parName="item_arena_layer",childCount="2",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black30.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="100",width="476",x="124",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="43",anchorPointX="0",anchorPointY="0",},
+lay_icon={classname="Panel",name="lay_icon",parName="item_arena_layer",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="86",width="86",x="19",y="10",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="47",anchorPointX="0",anchorPointY="0",},
+lb_name={classname="Label",name="lb_name",parName="item_arena_layer",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="11",y="120",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="48",anchorPointX="0",anchorPointY="0.5",},
+lb_ZL={classname="Label",name="lb_ZL",parName="item_arena_layer",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="580",y="120",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="49",anchorPointX="1",anchorPointY="0.5",},
+lb_rank={classname="Label",name="lb_rank",parName="item_arena_layer",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="232",y="120",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="50",anchorPointX="0",anchorPointY="0.5",},
+img_country={classname="ImageView",name="img_country",parName="item_arena_layer",ZOrder="10",fileName="#v1_img_chu.png",scale9Enable="false",scale9Height="64",scale9Width="51",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="64",width="51",x="32",y="81",visible="true",touchAble="false",flipX="false",scaleX="0.6",scaleY="0.6",opacity="255",rotation="0",tag="88",anchorPointX="0.5",anchorPointY="0.5",},
+}
+tTable["index_3"] = {
+img_line={classname="ImageView",name="img_line",parName="lay_cont",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="476",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="476",x="238",y="100",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="46",anchorPointX="0.5",anchorPointY="0.5",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_cont",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="124",x="344",y="25",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="52",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

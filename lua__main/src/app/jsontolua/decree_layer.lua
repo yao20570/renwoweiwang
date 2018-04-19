@@ -1,0 +1,22 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse1.plist"}
+tTable["index_1"] = {
+lay_sign={classname="Panel",name="lay_sign@fill_layout",parName="root",childCount="4",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="400",width="440",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="52",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_content={classname="Panel",name="lay_content",parName="lay_sign",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="275",width="440",x="0",y="125",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="5884",anchorPointX="0",anchorPointY="0",},
+lay_space={classname="Panel",name="lay_space@fill_layout",parName="lay_sign",ZOrder="99999",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="0.01",width="440",x="0",y="125",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="5887",anchorPointX="0",anchorPointY="0",},
+lay_king_name={classname="Panel",name="lay_king_name",parName="lay_sign",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="38",width="440",x="0",y="87",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="5885",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="lay_sign",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="87",width="440",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="5886",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lb_tip={classname="Label",name="lb_tip",parName="lay_content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="圣旨",fontName="微软雅黑",fontSize="20",height="27",width="40",x="220",y="249",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="54",anchorPointX="0.5",anchorPointY="0.5",},
+Label_15={classname="Label",name="Label_15",parName="lay_content",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="200",areaWidth="350",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="200",width="350",x="45",y="223",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="871",anchorPointX="0",anchorPointY="1",},
+img_yinzhang={classname="ImageView",name="img_yinzhang",parName="lay_content",ZOrder="10",fileName="#v1_img_yinzhang.png",scale9Enable="false",scale9Height="77",scale9Width="76",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="77",width="76",x="386",y="39",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="57",anchorPointX="0.5",anchorPointY="0.5",},
+lb_kingname={classname="Label",name="lb_kingname",parName="lay_king_name",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="黄天",fontName="微软雅黑",fontSize="20",height="27",width="40",x="20",y="19",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="59",anchorPointX="0",anchorPointY="0.5",},
+lb_time={classname="Label",name="lb_time",parName="lay_king_name",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="2017.03.09",fontName="微软雅黑",fontSize="20",height="27",width="106",x="420",y="19",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="60",anchorPointX="1",anchorPointY="0.5",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_bottom",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="155",y="30",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="4536",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

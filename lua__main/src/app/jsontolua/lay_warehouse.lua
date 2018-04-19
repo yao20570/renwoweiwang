@@ -1,0 +1,24 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse1.plist","ui/p2_commmon1_sep.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default@fill_layout",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="760",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="712",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_content={classname="Panel",name="lay_content@fill_layout",parName="default",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="600",width="640",x="0",y="159",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="723",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="default",childCount="4",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v2_img_jinduyanjiudi.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="320",capInsetsY="33",height="132",width="640",x="0",y="30",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="738",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lay_resinfo={classname="Panel",name="lay_resinfo",parName="lay_content",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="446",width="600",x="20",y="153",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="724",anchorPointX="0",anchorPointY="0",},
+lb_explain={classname="Label",name="lb_explain",parName="lay_bottom",ZOrder="1",colorB="188",colorG="175",colorR="169",areaHeight="80",areaWidth="450",hAlignment="0",vAlignment="0",text="城池被敌军攻破后，会自动消耗一件高级重建物资，为城池提供8小时保护以及打开援助物资，每次仓库升级可获得一份高级重建物资",fontName="微软雅黑",fontSize="18",height="80",width="450",x="156",y="88",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="739",anchorPointX="0",anchorPointY="1",},
+lb_item_name={classname="Label",name="lb_item_name",parName="lay_bottom",ZOrder="1",colorB="231",colorG="170",colorR="63",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="高级重建物资",fontName="微软雅黑",fontSize="20",height="27",width="120",x="156",y="107",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="740",anchorPointX="0",anchorPointY="0.5",},
+lb_item_num={classname="Label",name="lb_item_num",parName="lay_bottom",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="(剩余：0)",fontName="微软雅黑",fontSize="20",height="27",width="86",x="281",y="107",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="741",anchorPointX="0",anchorPointY="0.5",},
+lay_iconll={classname="Panel",name="lay_iconll",parName="lay_bottom",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="108",width="108",x="37",y="11",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="742",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+img_line1={classname="ImageView",name="img_line1",parName="lay_resinfo",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="600",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="600",x="300",y="113",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="730",anchorPointX="0.5",anchorPointY="0.5",},
+img_line2={classname="ImageView",name="img_line2",parName="lay_resinfo",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="600",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="600",x="299",y="224",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="731",anchorPointX="0.5",anchorPointY="0.5",},
+img_line3={classname="ImageView",name="img_line3",parName="lay_resinfo",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="600",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="600",x="299",y="335",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="732",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

@@ -1,0 +1,21 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+item_activity_modleb={classname="Panel",name="item_activity_modleb",parName="root",childCount="7",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="130",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="10",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_icon={classname="Panel",name="ly_icon",parName="item_activity_modleb",childCount="2",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",backGroundImage="#v1_img_touxiangkuangzi.png",height="108",width="108",x="15",y="11",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="11",anchorPointX="0",anchorPointY="0",},
+lb_title={classname="CustomLabel",name="lb_title",parName="item_activity_modleb",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="22",height="30",width="106",x="138",y="99",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="12",anchorPointX="0",anchorPointY="0.5",},
+lb_sec_title={classname="CustomLabel",name="lb_sec_title",parName="item_activity_modleb",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="138",y="55",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="13",anchorPointX="0",anchorPointY="0.5",},
+lb_desc={classname="CustomLabel",name="lb_desc",parName="item_activity_modleb",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="138",y="24",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="14",anchorPointX="0",anchorPointY="0.5",},
+lb_remain_time={classname="CustomLabel",name="lb_remain_time",parName="item_activity_modleb",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="244",y="24",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="15",anchorPointX="0",anchorPointY="0.5",},
+line={classname="ImageView",name="line",parName="item_activity_modleb",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="450",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="450",x="136",y="76",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16",anchorPointX="0",anchorPointY="0.5",},
+ly_red={classname="Panel",name="ly_red",parName="item_activity_modleb",ZOrder="6",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="26",width="26",x="567",y="98",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+img_bg={classname="ImageView",name="img_bg",parName="ly_icon",ZOrder="2",fileName="ui/daitu.png",scale9Enable="false",scale9Height="10",scale9Width="10",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="10",width="10",x="54",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="18",anchorPointX="0.5",anchorPointY="0.5",},
+img_icon={classname="ImageView",name="img_icon",parName="ly_icon",ZOrder="3",fileName="ui/daitu.png",scale9Enable="false",scale9Height="10",scale9Width="10",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="10",width="10",x="54",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="17",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

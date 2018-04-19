@@ -1,0 +1,21 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon2_sep.plist","ui/daitu.png","ui/p1_commonse1.plist"}
+tTable["index_1"] = {
+item_suburb={classname="Panel",name="item_suburb",parName="root",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="0",height="120",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="9",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_main={classname="Panel",name="lay_main",parName="item_suburb",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="120",width="540",x="10",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="21",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+img_bg={classname="ImageView",name="img_bg",parName="lay_main",ZOrder="0",fileName="#v1_img_kelashen6_b.png",scale9Enable="true",scale9Height="120",scale9Width="540",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="175",capInsetsY="9",height="120",width="540",x="270",y="60",visible="false",touchAble="false",flipX="true",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22",anchorPointX="0.5",anchorPointY="0.5",},
+img_suburb={classname="ImageView",name="img_suburb",parName="lay_main",ZOrder="1",fileName="ui/daitu.png",scale9Enable="false",scale9Height="10",scale9Width="10",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="10",width="10",x="6",y="61",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="10",anchorPointX="0",anchorPointY="0.5",},
+lb_hasbuild={classname="Label",name="lb_hasbuild",parName="lay_main",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="已建造：5",fontName="微软雅黑",fontSize="18",height="24",width="83",x="160",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="11",anchorPointX="0",anchorPointY="0.5",},
+lb_describe={classname="Label",name="lb_describe",parName="lay_main",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="资源介绍",fontName="微软雅黑",fontSize="18",height="24",width="72",x="160",y="58",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="14",anchorPointX="0",anchorPointY="0.5",},
+lb_name={classname="Label",name="lb_name",parName="lay_main",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="客栈",fontName="微软雅黑",fontSize="20",height="27",width="40",x="160",y="92",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="15",anchorPointX="0",anchorPointY="0.5",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_main",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="394",y="22",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16",anchorPointX="0",anchorPointY="0",},
+img_line1={classname="ImageView",name="img_line1",parName="lay_main",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="515",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="515",x="270",y="1",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="20",anchorPointX="0.5",anchorPointY="0.5",},
+img_line2={classname="ImageView",name="img_line2",parName="lay_main",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="540",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="540",x="270",y="-1",visible="false",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="24",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

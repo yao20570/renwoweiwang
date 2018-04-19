@@ -1,0 +1,22 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+dlg_root={classname="Panel",name="dlg_root@fill_layout",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="1066",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="34",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_space={classname="Panel",name="lay_space",parName="dlg_root",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="12",width="640",x="0",y="1054",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="134",anchorPointX="0",anchorPointY="0",},
+lay_top={classname="Panel",name="lay_top",parName="dlg_root",childCount="7",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="214",width="640",x="0",y="833",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="8",anchorPointX="0",anchorPointY="0",},
+lay_content={classname="Panel",name="lay_content@fill_layout",parName="dlg_root",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="810",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="10",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+img_font={classname="ImageView",name="img_font",parName="lay_top",ZOrder="1",fileName="#v2_fonts_shqizhyu.png",scale9Enable="false",scale9Height="33",scale9Width="125",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="33",width="125",x="320",y="186",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="558",anchorPointX="0.5",anchorPointY="0.5",},
+lay_bannerbg={classname="Panel",name="lay_bannerbg",parName="lay_top",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="135",anchorPointX="0",anchorPointY="0",},
+lay_icon={classname="Panel",name="lay_icon",parName="lay_top",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="80",width="80",x="276",y="75",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="506",anchorPointX="0",anchorPointY="0",},
+img_tip_bg={classname="ImageView",name="img_tip_bg",parName="lay_top",ZOrder="1",fileName="#v1_img_black50.png",scale9Enable="true",scale9Height="60",scale9Width="640",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="60",width="640",x="320",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="897",anchorPointX="0.5",anchorPointY="0.5",},
+lab_score={classname="Label",name="lab_score",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="320",y="19",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="178",anchorPointX="0.5",anchorPointY="0.5",},
+lab_player_name={classname="Label",name="lab_player_name",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="320",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="620",anchorPointX="0.5",anchorPointY="0.5",},
+lab_answer_tip={classname="Label",name="lab_answer_tip",parName="lay_top",ZOrder="2",colorB="255",colorG="255",colorR="255",areaHeight="60",areaWidth="620",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="60",width="620",x="320",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="831",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

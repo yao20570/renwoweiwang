@@ -1,0 +1,18 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse1.plist","ui/p1_commonse2.plist"}
+tTable["index_1"] = {
+item_friend_select={classname="Panel",name="item_friend_select",parName="root",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="110",width="508",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="29",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+img_bot_line={classname="ImageView",name="img_bot_line",parName="item_friend_select",ZOrder="0",fileName="#v1_line_blue1.png",scale9Enable="false",scale9Height="2",scale9Width="492",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="2",width="492",x="254",y="0",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="30",anchorPointX="0.5",anchorPointY="0.5",},
+lay_icon={classname="Panel",name="lay_icon",parName="item_friend_select",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="88",width="88",x="15",y="11",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="31",anchorPointX="0",anchorPointY="0",},
+lay_red={classname="Panel",name="lay_red",parName="item_friend_select",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="20",width="20",x="91",y="85",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="32",anchorPointX="0",anchorPointY="0",},
+lb_pram_1={classname="Label",name="lb_pram_1",parName="item_friend_select",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="22",height="30",width="106",x="112",y="91",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="36",anchorPointX="0",anchorPointY="0.5",},
+lb_pram_2={classname="Label",name="lb_pram_2",parName="item_friend_select",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="112",y="55",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="37",anchorPointX="0",anchorPointY="0.5",},
+lb_pram_3={classname="Label",name="lb_pram_3",parName="item_friend_select",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="112",y="23",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="38",anchorPointX="0",anchorPointY="0.5",},
+lb_time={classname="Label",name="lb_time",parName="item_friend_select",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="477",y="55",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="39",anchorPointX="1",anchorPointY="0.5",},
+img_jiantou={classname="ImageView",name="img_jiantou",parName="item_friend_select",ZOrder="0",fileName="#v1_btn_jiantou.png",scale9Enable="false",scale9Height="44",scale9Width="36",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="44",width="36",x="495",y="55",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="180",tag="40",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

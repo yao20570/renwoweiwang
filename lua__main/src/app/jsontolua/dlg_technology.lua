@@ -1,0 +1,26 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon1_sep.plist","ui/p1_commmon3_sep.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default@fill_layout",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1060",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="7",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_top={classname="Panel",name="lay_top",parName="default",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="192",width="640",x="0",y="867",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="710",anchorPointX="0",anchorPointY="0",},
+lay_list={classname="Panel",name="lay_list@fill_layout",parName="default",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_bg_kelashen.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="816",width="600",x="20",y="47",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="10",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="default",ZOrder="9",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="20",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="711",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lay_banner_bg={classname="Panel",name="lay_banner_bg",parName="lay_top",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="22",height="192",width="640",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="8",anchorPointX="0",anchorPointY="0",},
+lay_msg={classname="Panel",name="lay_msg",parName="lay_top",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="63",capInsetsY="65",height="130",width="600",x="20",y="29",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="9",anchorPointX="0",anchorPointY="0",},
+lay_top_tip={classname="Panel",name="lay_top_tip",parName="lay_top",childCount="1",ZOrder="4",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black50.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="38",width="640",x="0",y="2",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="480",anchorPointX="0",anchorPointY="0",},
+lay_title2_bg={classname="Panel",name="lay_title2_bg",parName="lay_list",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_xiaobiaoti2.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="24",height="50",width="640",x="-20",y="766",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="14",anchorPointX="0",anchorPointY="0",},
+listview={classname="Panel",name="listview@fill_layout",parName="lay_list",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="766",width="640",x="-20",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="15",anchorPointX="0",anchorPointY="0",},
+lay_recom_tnoly={classname="Panel",name="lay_recom_tnoly",parName="lay_list",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="147",width="640",x="-20",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="962",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+lb_toptip={classname="Label",name="lb_toptip",parName="lay_top_tip",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="17",height="23",width="84",x="294",y="19",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="478",anchorPointX="0.5",anchorPointY="0.5",},
+lb_title2={classname="Label",name="lb_title2",parName="lay_title2_bg",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="20",y="25",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="26",anchorPointX="0",anchorPointY="0.5",},
+lay_all={classname="Panel",name="lay_all",parName="lay_title2_bg",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="486",y="-1",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="12",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

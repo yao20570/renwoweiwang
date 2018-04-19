@@ -1,0 +1,26 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p2_commmon1_sep.plist","ui/v2_bg_popup_b.png"}
+tTable["index_1"] = {
+view={classname="Panel",name="view",parName="root",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="674",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="518",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_top={classname="Panel",name="lay_top",parName="view",childCount="3",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="60",width="556",x="2",y="614",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="519",anchorPointX="0",anchorPointY="0",},
+lay_middle={classname="Panel",name="lay_middle",parName="view",childCount="2",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="560",width="556",x="2",y="54",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="520",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="ui/v2_bg_popup_b.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="150",capInsetsY="25",height="54",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="521",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+txt_my_rank={classname="CustomLabel",name="txt_my_rank",parName="lay_top",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="我的排名：未上榜",fontName="微软雅黑",fontSize="20",height="27",width="160",x="99",y="29",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="542",anchorPointX="0.5",anchorPointY="0.5",},
+txt_my_score={classname="CustomLabel",name="txt_my_score",parName="lay_top",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="我的积分：",fontName="微软雅黑",fontSize="20",height="27",width="100",x="291",y="29",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="543",anchorPointX="0.5",anchorPointY="0.5",},
+lay_btn_share={classname="Panel",name="lay_btn_share",parName="lay_top",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="40",width="100",x="430",y="9",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="545",anchorPointX="0",anchorPointY="0",},
+lay_rank_title={classname="Panel",name="lay_rank_title",parName="lay_middle",childCount="4",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v2_img_biaoqiantiao.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="25",capInsetsY="25",height="60",width="556",x="0",y="498",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="546",anchorPointX="0",anchorPointY="0",},
+lay_listview={classname="Panel",name="lay_listview",parName="lay_middle",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="500",width="556",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="551",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+txt_rank_title1={classname="CustomLabel",name="txt_rank_title1",parName="lay_rank_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="排行",fontName="微软雅黑",fontSize="20",height="27",width="40",x="69",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="547",anchorPointX="0.5",anchorPointY="0.5",},
+txt_rank_title2={classname="CustomLabel",name="txt_rank_title2",parName="lay_rank_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="所有国家",fontName="微软雅黑",fontSize="20",height="27",width="80",x="201",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="548",anchorPointX="0.5",anchorPointY="0.5",},
+txt_rank_title3={classname="CustomLabel",name="txt_rank_title3",parName="lay_rank_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="主公昵称",fontName="微软雅黑",fontSize="20",height="27",width="80",x="353",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="549",anchorPointX="0.5",anchorPointY="0.5",},
+txt_rank_title4={classname="CustomLabel",name="txt_rank_title4",parName="lay_rank_title",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="积分",fontName="微软雅黑",fontSize="20",height="27",width="40",x="486",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="550",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

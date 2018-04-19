@@ -1,0 +1,10 @@
+local tDatas = {}
+tDatas["p2_font_sep.plist"] = "ui/language/cn/p2_font_sep.plist"
+tDatas["p1_font1.plist"] = "ui/language/cn/p1_font1.plist"
+tDatas["p1_font_sep.plist"] = "ui/language/cn/p1_font_sep.plist"
+tDatas["p2_font1.plist"] = "ui/language/cn/p2_font1.plist"
+tDatas["p2_font_ac2.plist"] = "ui/language/cn/p2_font_ac2.plist"
+tDatas["p2_font2.plist"] = "ui/language/cn/p2_font2.plist"
+tDatas["p2_font_ac.plist"] = "ui/language/cn/p2_font_ac.plist"
+tDatas["p1_font2.plist"] = "ui/language/cn/p1_font2.plist"
+return tDatas

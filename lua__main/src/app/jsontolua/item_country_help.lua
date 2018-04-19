@@ -1,0 +1,17 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+item_country_help={classname="Panel",name="item_country_help",parName="root",childCount="7",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="1",capInsetsY="1",height="130",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="466",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_icon={classname="Panel",name="lay_icon",parName="item_country_help",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="110",width="110",x="16",y="11",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="467",anchorPointX="0",anchorPointY="0",},
+lb_name={classname="CustomLabel",name="lb_name",parName="item_country_help",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="142",y="106",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="473",anchorPointX="0",anchorPointY="0.5",},
+lb_lv={classname="CustomLabel",name="lb_lv",parName="item_country_help",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="263",y="106",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="475",anchorPointX="0",anchorPointY="0.5",},
+lb_decs={classname="CustomLabel",name="lb_decs",parName="item_country_help",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="142",y="69",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="476",anchorPointX="0",anchorPointY="0.5",},
+lb_tips={classname="CustomLabel",name="lb_tips",parName="item_country_help",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="142",y="38",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="478",anchorPointX="0",anchorPointY="0.5",},
+lb_times={classname="CustomLabel",name="lb_times",parName="item_country_help",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="234",y="38",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="480",anchorPointX="0",anchorPointY="0.5",},
+lay_btn={classname="Panel",name="lay_btn",parName="item_country_help",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="40",width="120",x="450",y="39",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="481",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

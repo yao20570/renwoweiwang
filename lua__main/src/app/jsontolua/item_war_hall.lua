@@ -1,0 +1,21 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+lay_root={classname="Panel",name="lay_root",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="130",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="624",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_icon={classname="Panel",name="ly_icon",parName="lay_root",childCount="3",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",backGroundImage="#v1_img_touxiangkuangzi.png",height="108",width="108",x="14",y="10",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="11",anchorPointX="0",anchorPointY="0",},
+lb_title={classname="CustomLabel",name="lb_title",parName="lay_root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="22",height="30",width="106",x="137",y="98",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="12",anchorPointX="0",anchorPointY="0.5",},
+lb_desc1={classname="CustomLabel",name="lb_desc1",parName="lay_root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="137",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="13",anchorPointX="0",anchorPointY="0.5",},
+lb_desc2={classname="CustomLabel",name="lb_desc2",parName="lay_root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="137",y="23",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="14",anchorPointX="0",anchorPointY="0.5",},
+lb_enable={classname="CustomLabel",name="lb_enable",parName="lay_root",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="569",y="40",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="645",anchorPointX="1",anchorPointY="0.5",},
+line={classname="ImageView",name="line",parName="lay_root",ZOrder="1",fileName="#v1_line_blue1.png",scale9Enable="true",scale9Height="2",scale9Width="450",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="1",height="2",width="450",x="136",y="75",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="16",anchorPointX="0",anchorPointY="0.5",},
+}
+tTable["index_3"] = {
+img_bg={classname="ImageView",name="img_bg",parName="ly_icon",ZOrder="2",fileName="ui/daitu.png",scale9Enable="false",scale9Height="10",scale9Width="10",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="10",width="10",x="54",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="18",anchorPointX="0.5",anchorPointY="0.5",},
+img_icon={classname="ImageView",name="img_icon",parName="ly_icon",ZOrder="3",fileName="ui/daitu.png",scale9Enable="false",scale9Height="10",scale9Width="10",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="10",width="10",x="54",y="54",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="17",anchorPointX="0.5",anchorPointY="0.5",},
+lay_red={classname="Panel",name="lay_red",parName="ly_icon",ZOrder="10",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="25",width="25",x="554",y="89",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="659",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

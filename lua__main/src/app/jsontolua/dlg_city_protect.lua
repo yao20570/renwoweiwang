@@ -1,0 +1,22 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon2_sep.plist","ui/language/cn/p1_font1.plist"}
+tTable["index_1"] = {
+root={classname="Panel",name="root",parName="root",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="670",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="856",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_bot_list={classname="Panel",name="lay_bot_list",parName="root",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="360",width="532",x="14",y="28",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="857",anchorPointX="0",anchorPointY="0",},
+lay_top={classname="Panel",name="lay_top",parName="root",childCount="8",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen7.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="63",capInsetsY="65",height="130",width="532",x="14",y="525",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="858",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lay_jianzhu={classname="Panel",name="lay_jianzhu",parName="lay_top",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="130",width="130",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="862",anchorPointX="0",anchorPointY="0",},
+lb_playername={classname="Label",name="lb_playername",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="文官名字名字",fontName="微软雅黑",fontSize="22",height="30",width="132",x="148",y="100",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="864",anchorPointX="0",anchorPointY="0.5",},
+lb_playerLv={classname="Label",name="lb_playerLv",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Lv.5",fontName="微软雅黑",fontSize="22",height="30",width="41",x="297",y="100",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="865",anchorPointX="0",anchorPointY="0.5",},
+lb_pos={classname="Label",name="lb_pos",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="坐标：",fontName="微软雅黑",fontSize="20",height="27",width="60",x="148",y="58",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="866",anchorPointX="0",anchorPointY="0.5",},
+lb_protecttime={classname="Label",name="lb_protecttime",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="保护倒计时：",fontName="微软雅黑",fontSize="20",height="27",width="120",x="148",y="23",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="867",anchorPointX="0",anchorPointY="0.5",},
+lb_pos_value={classname="Label",name="lb_pos_value",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="99.99",fontName="微软雅黑",fontSize="20",height="27",width="53",x="212",y="58",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="868",anchorPointX="0",anchorPointY="0.5",},
+lb_timer={classname="Label",name="lb_timer",parName="lay_top",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="50:50",fontName="微软雅黑",fontSize="20",height="27",width="53",x="265",y="23",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="869",anchorPointX="0",anchorPointY="0.5",},
+img_flag={classname="ImageView",name="img_flag",parName="lay_top",ZOrder="0",fileName="#v1_img_flag_wei.png",scale9Enable="false",scale9Height="64",scale9Width="51",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="64",width="51",x="489",y="130",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="873",anchorPointX="0.5",anchorPointY="1",},
+}
+
+return tTable

@@ -1,0 +1,33 @@
+local tTable = {}
+
+
+tTable["index_1"] = {
+dlg_activity_nanbeiwar={classname="Panel",name="dlg_activity_nanbeiwar@fill_layout",parName="root",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="1066",width="522",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="408",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_main={classname="Panel",name="ly_main@fill_layout",parName="dlg_activity_nanbeiwar",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="22",capInsetsY="15",height="1066",width="522",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="416",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+ly_title={classname="Panel",name="ly_title",parName="ly_main",childCount="3",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="24",height="200",width="522",x="0",y="866",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="417",anchorPointX="0",anchorPointY="0",},
+ly_show={classname="Panel",name="ly_show@fill_layout",parName="ly_main",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="866",width="522",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="427",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_4"] = {
+ly_time={classname="Panel",name="ly_time",parName="ly_title",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="28",width="294",x="0",y="170",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="425",anchorPointX="0",anchorPointY="0",},
+lay_banner_bg={classname="Panel",name="lay_banner_bg",parName="ly_title",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="200",width="522",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="471",anchorPointX="0",anchorPointY="0",},
+lay_desc={classname="Panel",name="lay_desc",parName="ly_title",childCount="1",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_black50.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="75",width="523",x="0",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="487",anchorPointX="0",anchorPointY="0",},
+ly_con={classname="Panel",name="ly_con@fill_layout",parName="ly_show",childCount="4",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_bg_kelashen.png",capInsetsHeight="10",capInsetsWidth="35",capInsetsX="5",capInsetsY="5",height="818",width="522",x="0",y="48",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="421",anchorPointX="0",anchorPointY="0",},
+lay_bottom={classname="Panel",name="lay_bottom",parName="ly_show",childCount="1",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="173",width="502",x="0",y="0",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="445",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_5"] = {
+lb_act_desc={classname="Label",name="lb_act_desc",parName="lay_desc",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="70",areaWidth="460",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="70",width="460",x="17",y="35",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="455",anchorPointX="0",anchorPointY="0.5",},
+ly_sec_tile={classname="Panel",name="ly_sec_tile",parName="ly_con",childCount="1",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_xiaobiaoti2.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="25",height="48",width="522",x="0",y="768",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="419",anchorPointX="0",anchorPointY="0",},
+lay_space={classname="Panel",name="lay_space",parName="ly_con",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="25",height="20",width="522",x="0",y="747",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="507",anchorPointX="0",anchorPointY="0",},
+lay_content={classname="Panel",name="lay_content@fill_layout",parName="ly_con",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="693",width="522",x="0",y="54",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="435",anchorPointX="0",anchorPointY="0",},
+lay_space_2={classname="Panel",name="lay_space_2",parName="ly_con",ZOrder="1",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="186",capInsetsY="25",height="54",width="522",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="510",anchorPointX="0",anchorPointY="0",},
+lay_btn={classname="Panel",name="lay_btn",parName="lay_bottom",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="62",width="155",x="174",y="50",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="446",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_6"] = {
+lb_sec_tile={classname="CustomLabel",name="lb_sec_tile",parName="ly_sec_tile",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="选择服务器",fontName="微软雅黑",fontSize="22",height="30",width="110",x="15",y="25",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="420",anchorPointX="0",anchorPointY="0.5",},
+}
+
+return tTable

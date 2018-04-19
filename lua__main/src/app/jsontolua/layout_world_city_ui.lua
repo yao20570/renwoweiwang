@@ -1,0 +1,21 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse3.plist","ui/p1_commmon3_sep.plist","ui/language/cn/p1_font1.plist","ui/p1_commmon2_sep.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default",parName="root",childCount="4",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="150",width="160",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="8",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_callinfo={classname="Panel",name="lay_callinfo",parName="default",childCount="5",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="150",width="160",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6630",anchorPointX="0",anchorPointY="0",},
+img_war={classname="CustomImageView",name="img_war",parName="default",ZOrder="1",fileName="#v1_img_zjm_wzqph.png",scale9Enable="false",scale9Height="94",scale9Width="94",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="94",width="94",x="83",y="78",visible="true",touchAble="false",flipX="false",scaleX="0.7",scaleY="0.7",opacity="255",rotation="0",tag="13951",anchorPointX="0.5",anchorPointY="0.5",},
+img_war_icon={classname="CustomImageView",name="img_war_icon",parName="default",ZOrder="2",fileName="#v1_btn_guozhan2.png",scale9Enable="false",scale9Height="72",scale9Width="72",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="72",width="72",x="86",y="79",visible="true",touchAble="false",flipX="false",scaleX="0.7",scaleY="0.7",opacity="255",rotation="0",tag="13952",anchorPointX="0.5",anchorPointY="0.5",},
+lay_flag_effect={classname="Panel",name="lay_flag_effect",parName="default",ZOrder="3",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="50",x="58",y="53",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="13953",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+lay_bar_cd={classname="Panel",name="lay_bar_cd",parName="lay_callinfo",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="26",width="132",x="29",y="14",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6626",anchorPointX="0",anchorPointY="0",},
+img_hand={classname="CustomImageView",name="img_hand",parName="lay_callinfo",ZOrder="0",fileName="#v1_img_zhaohuanxiao.png",scale9Enable="false",scale9Height="38",scale9Width="34",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="38",width="34",x="12",y="23",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6627",anchorPointX="0.5",anchorPointY="0.5",},
+txt_cd={classname="CustomLabel",name="txt_cd",parName="lay_callinfo",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="18",height="24",width="87",x="94",y="28",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6629",anchorPointX="0.5",anchorPointY="0.5",},
+img_call={classname="CustomImageView",name="img_call",parName="lay_callinfo",ZOrder="0",fileName="#v1_img_qipao2.png",scale9Enable="false",scale9Height="55",scale9Width="50",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="55",width="50",x="83",y="134",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="6631",anchorPointX="0.5",anchorPointY="0.5",},
+img_call_icon={classname="CustomImageView",name="img_call_icon",parName="lay_callinfo",ZOrder="1",fileName="#v1_btn_zhaohuan.png",scale9Enable="false",scale9Height="72",scale9Width="72",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="72",width="72",x="83",y="136",visible="true",touchAble="false",flipX="false",scaleX="0.7",scaleY="0.7",opacity="255",rotation="0",tag="14055",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable

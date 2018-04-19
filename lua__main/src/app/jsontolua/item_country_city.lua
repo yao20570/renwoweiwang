@@ -1,0 +1,19 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commmon2_sep.plist","ui/p1_commonse1.plist"}
+tTable["index_1"] = {
+view={classname="Panel",name="view",parName="root",childCount="9",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kelashen6.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="50",capInsetsY="50",height="140",width="600",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="17",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_city_icon={classname="Panel",name="lay_city_icon",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="100",width="160",x="18",y="33",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="18",anchorPointX="0",anchorPointY="0",},
+img_pos={classname="CustomImageView",name="img_pos",parName="view",ZOrder="0",fileName="#v1_img_weizhi.png",scale9Enable="false",scale9Height="40",scale9Width="34",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="40",width="34",x="19",y="15",visible="true",touchAble="false",flipX="false",scaleX="0.6",scaleY="0.6",opacity="255",rotation="0",tag="19",anchorPointX="0.5",anchorPointY="0.5",},
+txt_pos={classname="CustomLabel",name="txt_pos",parName="view",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="41",y="17",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="20",anchorPointX="0",anchorPointY="0.5",},
+txt_city={classname="CustomLabel",name="txt_city",parName="view",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="221",y="99",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="21",anchorPointX="0",anchorPointY="0.5",},
+txt_owner={classname="CustomLabel",name="txt_owner",parName="view",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="222",y="60",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22",anchorPointX="0",anchorPointY="0.5",},
+txt_troops={classname="CustomLabel",name="txt_troops",parName="view",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="27",width="95",x="221",y="30",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="23",anchorPointX="0",anchorPointY="0.5",},
+lay_btn1={classname="Panel",name="lay_btn1",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="454",y="73",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="24",anchorPointX="0",anchorPointY="0",},
+lay_btn2={classname="Panel",name="lay_btn2",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="454",y="16",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="25",anchorPointX="0",anchorPointY="0",},
+lay_jump={classname="Panel",name="lay_jump",parName="view",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="130",width="180",x="7",y="5",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="28",anchorPointX="0",anchorPointY="0",},
+}
+
+return tTable

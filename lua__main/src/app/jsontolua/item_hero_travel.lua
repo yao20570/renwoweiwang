@@ -1,0 +1,23 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p1_commonse2.plist","ui/p2_commmon1_sep.plist"}
+tTable["index_1"] = {
+default={classname="Panel",name="default",parName="root",childCount="6",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="313",width="560",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22313",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+lay_hero_bg={classname="Panel",name="lay_hero_bg",parName="default",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v1_img_kapaizi.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="25",capInsetsY="25",height="235",width="182",x="14",y="38",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22336",anchorPointX="0",anchorPointY="0",},
+lay_reward_bg={classname="Panel",name="lay_reward_bg",parName="default",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",backGroundImage="#v2_img_vipbiaotou.png",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="122",capInsetsY="14",height="29",width="334",x="211",y="152",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22337",anchorPointX="0",anchorPointY="0",},
+lay_btn={classname="Panel",name="lay_btn",parName="default",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="50",width="130",x="314",y="41",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22338",anchorPointX="0",anchorPointY="0",},
+lay_time_content={classname="Panel",name="lay_time_content",parName="default",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="24",width="100",x="330",y="106",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22400",anchorPointX="0",anchorPointY="0",},
+lay_cost={classname="Panel",name="lay_cost",parName="default",childCount="2",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="24",width="200",x="299",y="106",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22407",anchorPointX="0",anchorPointY="0",},
+txt_desc={classname="Label",name="txt_desc",parName="default",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="108",areaWidth="331",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="20",height="108",width="331",x="211",y="280",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22410",anchorPointX="0",anchorPointY="1",},
+}
+tTable["index_3"] = {
+lay_hero_icon={classname="Panel",name="lay_hero_icon",parName="lay_hero_bg",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="229",width="176",x="3",y="3",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22369",anchorPointX="0",anchorPointY="0",},
+lay_reward_content={classname="Panel",name="lay_reward_content",parName="lay_reward_bg",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="24",width="150",x="138",y="3",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22372",anchorPointX="0",anchorPointY="0",},
+txt_reward_title={classname="Label",name="txt_reward_title",parName="lay_reward_bg",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="奖励：",fontName="微软雅黑",fontSize="18",height="24",width="54",x="109",y="15",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22402",anchorPointX="0.5",anchorPointY="0.5",},
+lay_cost_content={classname="Panel",name="lay_cost_content",parName="lay_cost",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="24",width="150",x="72",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22398",anchorPointX="0",anchorPointY="0",},
+txt_cost_title={classname="Label",name="txt_cost_title",parName="lay_cost",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="奖励：",fontName="微软雅黑",fontSize="18",height="24",width="54",x="43",y="0",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="22366",anchorPointX="0.5",anchorPointY="0",},
+}
+
+return tTable

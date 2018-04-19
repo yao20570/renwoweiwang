@@ -1,0 +1,17 @@
+local tDatas = {}
+tDatas["p1_icon_font.plist"] = "icon/p1_icon_font.plist"
+tDatas["p1_icon4.plist"] = "icon/p1_icon4.plist"
+tDatas["p1_icon9.plist"] = "icon/p1_icon9.plist"
+tDatas["p1_icon7.plist"] = "icon/p1_icon7.plist"
+tDatas["p1_icon6.plist"] = "icon/p1_icon6.plist"
+tDatas["p1_icon3_2.plist"] = "icon/p1_icon3_2.plist"
+tDatas["p1_icon_ui2.plist"] = "icon/p1_icon_ui2.plist"
+tDatas["p1_icon8.plist"] = "icon/p1_icon8.plist"
+tDatas["p1_icon3.plist"] = "icon/p1_icon3.plist"
+tDatas["p1_icon10.plist"] = "icon/p1_icon10.plist"
+tDatas["p1_icon5.plist"] = "icon/p1_icon5.plist"
+tDatas["p1_icon11.plist"] = "icon/p1_icon11.plist"
+tDatas["p1_icon2.plist"] = "icon/p1_icon2.plist"
+tDatas["p1_icon_ui.plist"] = "icon/p1_icon_ui.plist"
+tDatas["p1_icon1.plist"] = "icon/p1_icon1.plist"
+return tDatas

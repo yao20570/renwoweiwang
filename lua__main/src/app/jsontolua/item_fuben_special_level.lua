@@ -1,0 +1,25 @@
+local tTable = {}
+
+tTable["texturesPng"] = {"ui/p2_commmon1_sep.plist","ui/p2_commmon2_sep.plist","ui/p1_commonse1.plist","ui/p1_commmon2_sep.plist"}
+tTable["index_1"] = {
+pajlda={classname="Panel",name="pajlda",parName="root",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="150",width="122",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="364",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_2"] = {
+ly_main={classname="Panel",name="ly_main",parName="pajlda",childCount="7",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",height="150",width="122",x="0",y="0",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="366",anchorPointX="0",anchorPointY="0",},
+}
+tTable["index_3"] = {
+img_lock={classname="ImageView",name="img_lock",parName="ly_main",ZOrder="2",fileName="#v2_img_lock_tjp.png",scale9Enable="false",scale9Height="31",scale9Width="24",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="31",width="24",x="109",y="48",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="365",anchorPointX="0.5",anchorPointY="0.5",},
+img_content={classname="ImageView",name="img_content",parName="ly_main",ZOrder="0",fileName="#v2_img_cha_fb.png",scale9Enable="false",scale9Height="52",scale9Width="52",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="52",width="52",x="60",y="88",visible="false",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="367",anchorPointX="0.5",anchorPointY="0.5",},
+lb_con={classname="CustomLabel",name="lb_con",parName="ly_main",ZOrder="2",colorB="235",colorG="219",colorR="202",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="16",height="21",width="77",x="61",y="46",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="368",anchorPointX="0.5",anchorPointY="0.5",},
+lb_time={classname="CustomLabel",name="lb_time",parName="ly_main",ZOrder="1",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="Text Label",fontName="微软雅黑",fontSize="16",height="21",width="77",x="61",y="18",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="369",anchorPointX="0.5",anchorPointY="0.5",},
+ly_buy_hero={classname="Panel",name="ly_buy_hero",parName="ly_main",childCount="2",ZOrder="2",useMergedTexture="false",clipAble="false",backGroundScale9Enable="true",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="10",capInsetsY="10",height="20",width="120",x="-40",y="8",visible="true",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="539",anchorPointX="0",anchorPointY="0",},
+ly_qipao={classname="Panel",name="ly_qipao",parName="ly_main",childCount="1",ZOrder="0",useMergedTexture="false",clipAble="false",backGroundScale9Enable="false",backGroundImage="#v1_img_qipao.png",height="42",width="37",x="82",y="109",visible="false",touchAble="true",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1141",anchorPointX="0",anchorPointY="0",},
+img_name_di={classname="ImageView",name="img_name_di",parName="ly_main",ZOrder="1",fileName="#v1_img_jzmzd.png",scale9Enable="false",scale9Height="28",scale9Width="112",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="28",width="112",x="61",y="46",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="2285",anchorPointX="0.5",anchorPointY="0.5",},
+}
+tTable["index_4"] = {
+img_coin={classname="ImageView",name="img_coin",parName="ly_buy_hero",ZOrder="0",fileName="#v1_img_qianbi.png",scale9Enable="false",scale9Height="36",scale9Width="36",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="36",width="36",x="47",y="12",visible="true",touchAble="false",flipX="false",scaleX="0.8",scaleY="0.8",opacity="255",rotation="0",tag="537",anchorPointX="0.5",anchorPointY="0.5",},
+lb_buy_price={classname="CustomLabel",name="lb_buy_price",parName="ly_buy_hero",ZOrder="0",colorB="255",colorG="255",colorR="255",areaHeight="0",areaWidth="0",hAlignment="0",vAlignment="0",text="500",fontName="微软雅黑",fontSize="16",height="21",width="27",x="75",y="9",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="538",anchorPointX="0.5",anchorPointY="0.5",},
+img_qipao={classname="ImageView",name="img_qipao",parName="ly_qipao",ZOrder="0",fileName="#v1_img_qipao.png",scale9Enable="false",scale9Height="46",scale9Width="41",capInsetsHeight="1",capInsetsWidth="1",capInsetsX="0",capInsetsY="0",height="46",width="41",x="19",y="21",visible="true",touchAble="false",flipX="false",scaleX="1",scaleY="1",opacity="255",rotation="0",tag="1140",anchorPointX="0.5",anchorPointY="0.5",},
+}
+
+return tTable
